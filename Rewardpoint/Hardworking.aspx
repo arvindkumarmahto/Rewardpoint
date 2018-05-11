@@ -4,11 +4,13 @@
         &nbsp;</p>
     <table style="width: 100%;">
         <tr>
+            <td style="border: medium solid #800000; background-color: #FFFFFF; width: 339px;">
+                &nbsp;</td>
             <td style="border: medium solid #800000; background-color: #FFFFFF;">
                 &nbsp;</td>
         </tr>
         <tr>
-            <td style="border: medium solid #800000">
+            <td style="border: medium solid #800000; width: 339px;">
                 <asp:TreeView ID="TreeView1" runat="server" Height="499px" LineImagesFolder="~/TreeLineImages" ShowLines="True" Width="345px" BackColor="#E1D8EB" BorderColor="#660066" BorderStyle="Groove" Font-Bold="True" Font-Names="Calibri Light" Font-Size="Medium" ForeColor="#6600CC">
                     <Nodes>
                         <asp:TreeNode Expanded="True" Text="Nomination" Value="Award category">
@@ -51,6 +53,8 @@
                     <RootNodeStyle BackColor="White" Font-Bold="True" Font-Size="Large" />
                 </asp:TreeView>
             </td>
+            <td style="border: medium solid #800000">
+                This is hardworking reward page.</td>
         </tr>
         </table>
     <p>
