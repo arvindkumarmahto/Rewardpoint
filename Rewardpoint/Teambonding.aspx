@@ -61,7 +61,7 @@
                         <td style="height: 22px">
                             <asp:DropDownList ID="DropDownList1" runat="server" DataSourceID="SqlDataSource1" DataTextField="Project_Name" DataValueField="Project_Name" Height="46px" Width="216px">
                             </asp:DropDownList>
-                            <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:DefaultConnection %>" SelectCommand="SELECT [Project_Name] FROM [Project]"></asp:SqlDataSource>
+                            <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:aspnet-RewardPoints-20180503074710ConnectionString %>" SelectCommand="SELECT [Project_Name] FROM [Project]"></asp:SqlDataSource>
                         </td>
                     </tr>
                     <tr>
