@@ -57,15 +57,17 @@
                         <td style="border-color: #FFFFFF" colspan="7">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="text-decoration: underline"><strong>SLA or TimeDelivery</strong></span><br />
                             <br />
                         </td>
+                        <td style="border-color: #FFFFFF">&nbsp;</td>
                     </tr>
                     <tr>
                         <td style="width: auto; height: auto; border-color: #FFFFFF">Month</td>
                         <td style="width: auto; height: auto; border-color: #FFFFFF">TaskType</td>
-                        <td style="width: 151px; height: auto; border-color: #FFFFFF">Task Category</td>
-                        <td style="width: auto; height: auto; border-color: #FFFFFF">Task Count</td>
+                        <td style="width: 182px; height: auto; border-color: #FFFFFF">Task Category</td>
+                        <td style="width: 138px; height: auto; border-color: #FFFFFF">Task Count</td>
                         <td style="width: auto; height: auto; border-color: #FFFFFF">Time Taken</td>
                         <td style="width: auto; height: auto; border-color: #FFFFFF">SLA</td>
                         <td style="width: auto; height: auto; border-color: #FFFFFF">SLA Category</td>
+                        <td style="width: auto; height: auto; border-color: #FFFFFF">&nbsp;</td>
                     </tr>
                     <tr>
                         <td style="width: auto; height: auto; border-color: #FFFFFF">
@@ -92,14 +94,14 @@
                                 <asp:ListItem>SNOW</asp:ListItem>
                             </asp:DropDownList>
                         </td>
-                        <td style="width: 151px; height: auto; border-color: #FFFFFF">
+                        <td style="width: 182px; height: auto; border-color: #FFFFFF">
                             <asp:DropDownList ID="DropDownList3" runat="server">
                                 <asp:ListItem>Simple</asp:ListItem>
                                 <asp:ListItem>Medium</asp:ListItem>
                                 <asp:ListItem>complex</asp:ListItem>
                             </asp:DropDownList>
                         </td>
-                        <td style="width: auto; height: auto; border-color: #FFFFFF">
+                        <td style="width: 138px; height: auto; border-color: #FFFFFF">
                             <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
                         </td>
                         <td style="width: auto; height: auto; border-color: #FFFFFF">
@@ -111,28 +113,32 @@
                         <td style="width: auto; height: auto; border-color: #FFFFFF">
                             <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
                         </td>
+                        <td style="width: auto; height: auto; border-color: #FFFFFF">
+                            <asp:Button ID="Button3" runat="server" OnClick="Button2_Click" Text="Add" />
+                        </td>
                     </tr>
                     <tr>
                         <td style="width: auto; height: auto; border-color: #FFFFFF">&nbsp;</td>
                         <td style="width: auto; height: auto; border-color: #FFFFFF">&nbsp;</td>
-                        <td style="width: 151px; height: auto; border-color: #FFFFFF">&nbsp;</td>
-                        <td style="width: auto; height: auto; border-color: #FFFFFF">
+                        <td style="width: 182px; height: auto; border-color: #FFFFFF">&nbsp;</td>
+                        <td style="width: 138px; height: auto; border-color: #FFFFFF">
                             &nbsp;</td>
                         <td style="width: auto; height: auto; border-color: #FFFFFF">&nbsp;</td>
                         <td style="width: auto; height: auto; border-color: #FFFFFF">
-                            <asp:LinkButton ID="LinkButton1" runat="server">Add</asp:LinkButton>
-                        </td>
+                            &nbsp;</td>
                         <td style="width: auto; height: auto; border-color: #FFFFFF">
-                            <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Add" />
-                        </td>
+                            &nbsp;</td>
+                        <td style="width: auto; height: auto; border-color: #FFFFFF">
+                            &nbsp;</td>
                     </tr>
                     <tr>
                         <td style="width: auto; height: auto; border-color: #FFFFFF">&nbsp;</td>
                         <td style="width: auto; height: auto; border-color: #FFFFFF">&nbsp;</td>
-                        <td style="width: 151px; height: auto; border-color: #FFFFFF">&nbsp;</td>
-                        <td style="width: auto; height: auto; border-color: #FFFFFF">
-                            <asp:Button ID="Button1" runat="server" Height="42px" OnClick="Button1_Click" Text="Submit" Width="184px" />
+                        <td style="width: 182px; height: auto; border-color: #FFFFFF">&nbsp;</td>
+                        <td style="width: 138px; height: auto; border-color: #FFFFFF">
+                            <asp:Button ID="Button1" runat="server" Height="37px" OnClick="Button1_Click" Text="Submit" Width="125px" />
                         </td>
+                        <td style="width: auto; height: auto; border-color: #FFFFFF">&nbsp;</td>
                         <td style="width: auto; height: auto; border-color: #FFFFFF">&nbsp;</td>
                         <td style="width: auto; height: auto; border-color: #FFFFFF">&nbsp;</td>
                         <td style="width: auto; height: auto; border-color: #FFFFFF">&nbsp;</td>
