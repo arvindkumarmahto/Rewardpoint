@@ -44,6 +44,7 @@ namespace Rewardpoint
                 DbConnection.Close();
                 Label1.Visible = true;
                 
+                
             }
             catch (Exception ex)
             {
@@ -52,6 +53,11 @@ namespace Rewardpoint
                 //Label1.Visible = true;
                 //TextBox2.Text = "Error";
             }
+        }
+
+        protected void TreeView1_SelectedNodeChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

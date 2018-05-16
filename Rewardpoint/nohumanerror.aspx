@@ -4,15 +4,14 @@
         &nbsp;</p>
     <table class="nav-justified">
         <tr>
-            <td style="border: medium solid #800000; background-color: #FFFFFF; width: 350px;">
-                &nbsp;</td>
-            <td style="border: medium solid #800000; background-color: #FFFFFF;">
-                &nbsp;</td>
+            <td style="border: medium solid #800000; background-color: #FFFFFF; width: 350px; height: 30px;">
+                </td>
+            <td style="border: medium solid #800000; background-color: #FFFFFF; height: 30px;">
+                </td>
         </tr>
-        <tr>
+        <tr style="background-color: #99CCFF">
             <td style="border: medium solid #800000; width: 350px;">
-                <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
-                <asp:TreeView ID="TreeView1" runat="server" Height="499px" LineImagesFolder="~/TreeLineImages" ShowLines="True" Width="345px" BackColor="#E1D8EB" BorderColor="#660066" BorderStyle="Groove" Font-Bold="True" Font-Names="Calibri Light" Font-Size="Medium" ForeColor="#6600CC">
+                <asp:TreeView ID="TreeView1" runat="server" Height="499px" LineImagesFolder="~/TreeLineImages" ShowLines="True" Width="345px" BackColor="#E1D8EB" BorderColor="#660066" BorderStyle="Groove" Font-Bold="True" Font-Names="Calibri Light" Font-Size="Medium" ForeColor="#6600CC" OnSelectedNodeChanged="TreeView1_SelectedNodeChanged">
                     <Nodes>
                         <asp:TreeNode Expanded="True" Text="Nomination" Value="Award category">
                             <asp:TreeNode Text="#BeTheTeam" Value="#BeTheTeam">
@@ -30,7 +29,7 @@
                                 <asp:TreeNode NavigateUrl="~/ExtendedSupport.aspx" Text="Extended Support" Value="Extended Support"></asp:TreeNode>
                                 <asp:TreeNode NavigateUrl="~/Hardworking.aspx" Text="Hard Working" Value="Hard Working"></asp:TreeNode>
                             </asp:TreeNode>
-                            <asp:TreeNode Text="#ThnkingHat" Value="#ThnkingHat">
+                            <asp:TreeNode Text="#ThinkingHat" Value="#ThinkingHat">
                                 <asp:TreeNode NavigateUrl="~/sip.aspx" Text="SIP" Value="SIP"></asp:TreeNode>
                                 <asp:TreeNode NavigateUrl="~/Script.aspx" Text="Script" Value="Script"></asp:TreeNode>
                                 <asp:TreeNode NavigateUrl="~/ideas.aspx" Text="Automation Ideas" Value="Automation Ideas"></asp:TreeNode>
@@ -57,15 +56,15 @@
             <td style="border: medium solid #800000; color: #0000FF; font-style: italic; font-weight: bold;">
                 <table border="1" style="width: 100%;">
                     <tr>
-                        <td style="width: 90px">MONTH</td>
-                        <td style="width: 146px">Task Type</td>
-                        <td style="width: 100px">Task Category</td>
-                        <td style="width: 80px">task Count</td>
-                        <td style="width: 70px">Time taken</td>
-                        <td style="width: 172px">Task Link</td>
-                        <td style="width: 75px">Issues</td>
-                        <td style="width: 197px">Incident Type</td>
-                        <td style="width: 237px">Validation</td>
+                        <td style="color: #000000;">MONTH</td>
+                        <td style="color: #000000;">Task Type</td>
+                        <td style="color: #000000;">Task Category</td>
+                        <td style="color: #000000;">task Count</td>
+                        <td style="color: #000000;">Time taken</td>
+                        <td style="color: #000000;">Task Link</td>
+                        <td style="color: #000000;">Issues</td>
+                        <td style="color: #000000;">Incident Type</td>
+                        <td style="color: #000000;">Validation</td>
                     </tr>
                     <tr>
                         <td style="width: 90px">
@@ -128,14 +127,14 @@
                 <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <asp:Button runat="server" Height="51px" OnClick="Button1_Click" Text="Submit" Width="108px" />
+                <asp:Label ID="Label1" runat="server" Text="Submitted Successfully" Visible="False"></asp:Label>
                 <br />
                 <br />
                 <br />
                 <br />
                 <br />
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:Label ID="Label1" runat="server" Text="Submitted"></asp:Label>
-            &nbsp;Successfully</td>
+                &nbsp;</td>
         </tr>
         </table>
     <p>
