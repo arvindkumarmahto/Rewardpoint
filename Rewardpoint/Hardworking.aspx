@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <p>
         &nbsp;</p>
-    <table style="width: 100%;">
+    <table class="nav-justified">
         <tr>
             <td style="border: medium solid #800000; background-color: #FFFFFF; width: 339px;">
                 &nbsp;</td>
