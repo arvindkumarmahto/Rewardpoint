@@ -2,16 +2,14 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <p>
         &nbsp;</p>
-    <table style="width: 100%;" >
+    <table style="width: 100%;">
         <tr>
-            <td style="border: medium solid #800000; background-color: #FFFFFF; width: 78px;">
-                &nbsp;</td>
             <td style="border: medium solid #800000; background-color: #FFFFFF;">
                 &nbsp;</td>
         </tr>
         <tr>
-            <td style="border: medium solid #800000; width: 78px;">
-                <asp:TreeView ID="TreeView1" runat="server" Height="499px" LineImagesFolder="~/TreeLineImages" ShowLines="True" Width="345px" BackColor="#E1D8EB" BorderColor="#660066" BorderStyle="Groove" Font-Bold="True" Font-Names="Calibri Light" Font-Size="Medium" ForeColor="#6600CC">
+            <td style="border: medium solid #800000; width: 338px;">
+                <asp:TreeView ID="TreeView1" runat="server" Height="493px" LineImagesFolder="~/TreeLineImages" ShowLines="True" Width="341px" BackColor="#E1D8EB" BorderColor="#660066" BorderStyle="Groove" Font-Bold="True" Font-Names="Calibri Light" Font-Size="Medium" ForeColor="#6600CC">
                     <Nodes>
                         <asp:TreeNode Expanded="True" Text="Nomination" Value="Award category">
                             <asp:TreeNode Text="#BeTheTeam" Value="#BeTheTeam">
@@ -53,23 +51,20 @@
                     <RootNodeStyle BackColor="White" Font-Bold="True" Font-Size="Large" />
                 </asp:TreeView>
             </td>
-            <td style="border: medium solid #800000">
-                <table style="width:100%;">
-                    <tr>
-                        <td style="width: 93px">Month</td>
-                        <td style="width: 127px">Task Type</td>
-                        <td style="width: 89px">Task Count</td>
-                        <td style="width: 100px">Time Taken</td>
-                        <td style="width: 89px">Feedback </td>
-                        <td style="width: 111px">Feedback Type</td>
-                        <td style="width: 67px">Validate</td>
-                        <td style="width: 67px">&nbsp;</td>
-                        <td style="width: 67px">&nbsp;</td>
-                        <td>&nbsp;</td>
+            <td style="background-color: #FFCCCC;">
+                <table style="width:100%;" border="1">
+                    <tr style="border-color: #000000">
+                        <td style="border-width: 1px;" >Month</td>
+                        <td style="border-width: 1px;">Task Type</td>
+                        <td style="border-width: 1px;">Task Count</td>
+                        <td style="border-width: 1px;">Time Taken</td>
+                        <td style="border-width: 1px;">Feedback </td>
+                        <td style="border-width: 1px;">Source</td>
+                        <td style="border-width: 1px;">Validate</td>
                     </tr>
                     <tr>
-                        <td style="width: 93px">
-                            <asp:DropDownList ID="DropDownList1" runat="server">
+                        <td style="width: 83px">
+                            <asp:DropDownList ID="DropDownList1" runat="server" Height="16px" Width="88px">
                                 <asp:ListItem>January</asp:ListItem>
                                 <asp:ListItem>February</asp:ListItem>
                                 <asp:ListItem>March</asp:ListItem>
@@ -84,24 +79,24 @@
                                 <asp:ListItem>December</asp:ListItem>
                             </asp:DropDownList>
                         </td>
-                        <td style="width: 127px">
-                            <asp:DropDownList ID="DropDownList2" runat="server">
+                        <td style="width: 96px">
+                            <asp:DropDownList ID="DropDownList2" runat="server" Height="16px" Width="90px">
                                 <asp:ListItem>ICM</asp:ListItem>
                                 <asp:ListItem>Service NOW</asp:ListItem>
                                 <asp:ListItem>VSO - Bug</asp:ListItem>
                             </asp:DropDownList>
                         </td>
-                        <td style="width: 89px">
-                            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                        <td style="width: 77px">
+                            <asp:TextBox ID="TextBox1" runat="server" Width="108px"></asp:TextBox>
                         </td>
-                        <td style="width: 100px">
-                            <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+                        <td style="width: 105px">
+                            <asp:TextBox ID="TextBox2" runat="server" Width="75px"></asp:TextBox>
                         </td>
-                        <td style="width: 89px">
-                            <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+                        <td style="width: 77px">
+                            <asp:TextBox ID="TextBox3" runat="server" Width="100px"></asp:TextBox>
                         </td>
                         <td style="width: 111px">
-                            <asp:DropDownList ID="DropDownList3" runat="server">
+                            <asp:DropDownList ID="DropDownList3" runat="server" Height="16px" Width="99px">
                                 <asp:ListItem>Email</asp:ListItem>
                                 <asp:ListItem>Portal</asp:ListItem>
                                 <asp:ListItem>Survey</asp:ListItem>
@@ -110,42 +105,18 @@
                         <td style="width: 67px">
                             <asp:RadioButton ID="RadioButton1" runat="server" OnCheckedChanged="RadioButton1_CheckedChanged" />
                         </td>
-                        <td style="width: 67px">&nbsp;</td>
-                        <td style="width: 67px">&nbsp;</td>
-                        <td>&nbsp;</td>
                     </tr>
-                    <tr>
-                        <td style="width: 93px">&nbsp;</td>
-                        <td style="width: 127px">&nbsp;</td>
-                        <td style="width: 89px">
-                            <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
-                        </td>
-                        <td style="width: 100px">&nbsp;</td>
-                        <td style="width: 89px">&nbsp;</td>
-                        <td style="width: 111px">&nbsp;</td>
-                        <td style="width: 67px">&nbsp;</td>
-                        <td style="width: 67px">&nbsp;</td>
-                        <td style="width: 67px">&nbsp;</td>
-                        <td>&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td style="width: 93px">&nbsp;</td>
-                        <td style="width: 127px">&nbsp;</td>
-                        <td style="width: 89px">&nbsp;</td>
-                        <td style="width: 100px">&nbsp;</td>
-                        <td style="width: 89px">&nbsp;</td>
-                        <td style="width: 111px">&nbsp;</td>
-                        <td style="width: 67px">
-                            <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Submit" />
-                        </td>
-                        <td style="width: 67px">&nbsp;</td>
-                        <td style="width: 67px">&nbsp;</td>
-                        <td>&nbsp;</td>
-                    </tr>
-                </table>
+                                     </table>
+                <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Submit" Width="122px" />
             </td>
         </tr>
+        <tr>
+            <td style="border: medium solid #800000; width: 338px;">
+                &nbsp;</td>
+            <td style="background-color: #FFCCCC;">
+                &nbsp;</td>
+        </tr>
         </table>
-    <p>
-        &nbsp;</p>
-</asp:Content>
+    </asp:Content>

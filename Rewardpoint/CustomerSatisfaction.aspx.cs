@@ -40,14 +40,14 @@ namespace Rewardpoint
                // cmd.Parameters.AddWithValue("@Validate", TextBox5.Text);
                 cmd.ExecuteNonQuery();
                 DbConnection.Close();
-           TextBox4.Visible = true;
+           TextBox2.Visible = true;
            Button1.Visible = false;
            }
            catch (Exception ex)
             {
                 //TextBox1.Text = "SQL connection failed";
-               TextBox4.Text = "SQL Server connection failed";
-                TextBox4.Visible = true;
+               TextBox2.Text = "SQL Server connection failed";
+                TextBox2.Visible = true;
             }
         }
 
